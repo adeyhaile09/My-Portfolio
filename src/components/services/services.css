@@ -1,0 +1,35 @@
+.services__container {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.875rem;
+}
+.services__card {
+  padding: 1.875rem;
+  border-radius: var(--border-radius);
+  background-color: var(--container-color);
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow);
+}
+.services__card:hover {
+  transform: translateY(-10px);
+}
+.services__img {
+  margin-bottom: 1.25rem;
+  align-self: center !important;
+  border-radius: 20px;
+  width: 170px;
+  height: 150px;
+}
+.services__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.services__description {
+  margin-left: 1.5em;
+}
+
+.list {
+  list-style: disc;
+}
