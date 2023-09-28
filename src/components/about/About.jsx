@@ -3,6 +3,16 @@ import './about.css';
 import Image from '../../assets/kid.png';
 import AboutBox from './AboutBox';
 const About = () => {
+  const downloadFile = () => {
+    const fileUrl = '../../../assets/CV.pdf';
+
+    const a = document.createElement('a');
+    a.href = fileUrl;
+    a.download = 'Kidest-CV.pdf'; // Set the desired file name here
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  };
   return (
     <section className="about container section" id="about">
       <h2 className="section__title">About Me</h2>
@@ -15,13 +25,12 @@ const About = () => {
               Ethiopia. I have rich experience in web site design and building
               and customization, also I am good at WordPress.
             </p>
-            <a
-              href="./assets/Kidest-Full Stack Developer.pdf"
-              target="./assets/Kidest-Full Stack Developer.pdf"
-              className="btn"
-            >
+            <button onClick={downloadFile} className="btn">
               Download CV
-            </a>
+            </button>
+            {/* <a href="public/assets/CV.pdf" className="btn">
+              Download CV
+            </a> */}
           </div>
           <div className="about__skills grid">
             <div className="skills__data">

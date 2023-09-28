@@ -40,7 +40,7 @@ const Data = [
     id: 4,
     category: 'experience2',
     icon: 'icon-briefcase',
-    year: 'Sep 2023 - present',
+    year: 'Sep 2023 - Present',
     title: 'Frontend Developer',
     subtitle: 'Perago Information systems',
     desc: [
@@ -53,7 +53,7 @@ const Data = [
     id: 5,
     category: 'experience2',
     icon: 'icon-briefcase',
-    year: 'Jan Sep 2023 - present',
+    year: 'Jan 2023 - Present',
     title: 'Frontend Developer',
     subtitle: 'Geez Software Technology',
     desc: [
@@ -66,7 +66,7 @@ const Data = [
     id: 6,
     category: 'experience2',
     icon: 'icon-briefcase',
-    year: 'Jan 2023 - present',
+    year: 'Jan 2023 - Present',
     title: 'WordPress Developer',
     subtitle: 'Geez Software Technology ',
     desc: [
